@@ -1,84 +1,40 @@
-# 🛢️ Galle-Woods Drilling Optimization Simulator
+# 🤖 AI-Based Intelligent System for ROP Optimization (Gemini-Enhanced)
 
-<div align="center">
+Welcome to the official repository for the **Drilling Performance Optimization Simulator**. This project represents a modern approach to Petroleum Engineering, integrating the classical **Galle-Woods** analytical model with **Generative AI (Google Gemini)** for intelligent decision support.
 
-![Version](https://img.shields.io/badge/Version-2.6-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.9+-green?style=for-the-badge&logo=python)
-![AI](https://img.shields.io/badge/Gemini_AI-Integrated-purple?style=for-the-badge&logo=google)
-![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen?style=for-the-badge)
+## 🌟 Project Overview
+This system is designed to optimize the **Rate of Penetration (ROP)** by analyzing real-time drilling parameters (WOB, RPM, Depth, and Time). The integration of **Gemini** transforms the simulator from a mere calculator into an "Intelligent Advisor" that provides engineering recommendations based on data trends.
 
-**Advanced Drilling Parameter Optimization using Galle-Woods Mathematical Model,
-Monte Carlo Simulation, and Google Gemini AI Safety Analysis**
+## 🧠 Why Gemini?
+In this specific version of the project, **Google Gemini** is utilized to:
+1. **Intelligent Diagnostics:** Interpret data cleaning reports and suggest why certain outliers were removed.
+2. **Dynamic Recommendations:** Analyze the optimized WOB and RPM to provide safety warnings and drilling efficiency tips.
+3. **Code Optimization:** Refine the mathematical logic for faster computational performance during Monte Carlo simulations.
 
-[Features](#-features) •
-[Installation](#-installation) •
-[Quick Start](#-quick-start) •
-[Documentation](#-documentation) •
-[API Reference](#-api-reference)
+## 📂 Repository Structure
+* 📁 `project/`: The core Python source code.
+* 📁 `data/`: Sample drilling datasets used for model calibration.
+* 📄 `gemini_logic.py`: The integration script between the simulator and Gemini API.
+* 📄 `requirements.txt`: List of dependencies (CustomTkinter, Pandas, GenerativeAI).
 
----
+## 🛠️ Technical Workflow
+1. **Data Acquisition:** Importing raw field data via Excel.
+2. **Intelligent Cleaning:** Using IQR and Gemini logic to filter sensor noise.
+3. **Analytical Modeling:** Applying the Galle-Woods ROP equation.
+4. **Stochastic Optimization:** Running Monte Carlo simulations to find the best drilling parameters.
+5. **AI Analysis:** Generating a final report using the Gemini LLM.
 
-</div>
+## 🚀 Getting Started
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Add your `GEMINI_API_KEY` in the environment variables.
+4. Run `main.py` to start the Intelligent Simulator.
 
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [System Architecture](#-system-architecture)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [User Guide](#-user-guide)
-  - [Home Page](#1-home-page)
-  - [Configuration Page](#2-configuration-page)
-  - [Monte Carlo Page](#3-monte-carlo-page)
-- [Mathematical Model](#-mathematical-model)
-- [AI Safety Analysis](#-ai-safety-analysis)
-- [Data Format](#-data-format)
-- [API Reference](#-api-reference)
-- [Configuration](#-configuration)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
+## 🎓 Academic Affiliation
+* **Researcher:** Mohamed Elamin Ali
+* **Institution:** Sudan University of Science and Technology (SUST)
+* **Department:** Petroleum Engineering (Southern Campus)
+* **Project Date:** 2026
 
 ---
-
-## 🔭 Overview
-
-The **Galle-Woods Drilling Optimization Simulator** is a desktop application
-designed for petroleum engineers to optimize drilling parameters using the
-**Galle-Woods mathematical model**. It combines deterministic calculations with
-**Monte Carlo stochastic simulation** and **Google Gemini AI** to identify
-safe and optimal drilling operating conditions.
-
-### What Problem Does It Solve?
-
-In drilling operations, selecting the right combination of **Weight on Bit (WOB)**
-and **Rotary Speed (RPM)** is critical for:
-
-- ⚡ **Maximizing Rate of Penetration (dF/dT)** — drill faster
-- 🛡️ **Controlling Bit Wear Rate (dF/dD)** — extend bit life
-- 💰 **Reducing Drilling Cost** — minimize non-productive time
-- 🔒 **Ensuring Safety** — avoid equipment failure
-
-This tool automates the process of exploring thousands of WOB/RPM combinations
-and uses AI to classify each operating point into safety zones.
-
-### Key Highlights
-
-| Feature | Description |
-|---------|-------------|
-| 🔬 **Galle-Woods Model** | Industry-standard drilling performance prediction |
-| 🎲 **Monte Carlo Simulation** | Explore 1,000–100,000+ parameter combinations |
-| 🤖 **Gemini AI Analysis** | Automated safety classification and recommendations |
-| 📊 **9 Interactive Charts** | Real-time visualization of drilling performance |
-| 📁 **Excel Import/Export** | Full data pipeline with cleaning and validation |
-| 🧹 **Auto Data Cleaning** | Outlier removal, missing value handling, validation |
-| 📋 **Professional Reports** | Exportable AI analysis reports |
-
----
-
-## ✨ Features
-
-### Core Calculation Engine
+*Developed with the assistance of Google Gemini to bridge the gap between AI and Oil & Gas Engineering.*
