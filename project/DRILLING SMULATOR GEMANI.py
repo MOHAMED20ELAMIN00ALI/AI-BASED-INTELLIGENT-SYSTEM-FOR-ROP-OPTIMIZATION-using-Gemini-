@@ -13,7 +13,7 @@ import logging
 import json
 import google.generativeai as genai
 
-GEMINI_API_KEY = "AIzaSyCUv1Fwn8bexJ7NLOpl3wUuGFxpDKK9oDE"
+GEMINI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 genai.configure(api_key=GEMINI_API_KEY)
 
