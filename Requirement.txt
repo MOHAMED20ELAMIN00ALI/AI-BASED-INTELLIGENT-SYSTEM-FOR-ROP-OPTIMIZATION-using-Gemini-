@@ -1,0 +1,15 @@
+# --- Core Data Processing ---
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# --- Visualization & GUI ---
+matplotlib>=3.7.0
+customtkinter>=5.2.0
+pillow>=10.0.0
+
+# --- AI & Gemini Integration ---
+google-generativeai>=0.3.0
+
+# --- Mathematical Utilities ---
+scipy>=1.10.0
